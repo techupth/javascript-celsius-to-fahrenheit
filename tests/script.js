@@ -5,7 +5,7 @@ import fetch from "node-fetch";
 
 const headers = {
   Accept: "application/vnd.github+json",
-  Authorization: process.env.GITHUB_TOKEN,
+  Authorization: process.env.AUTH_GITHUB_TOKEN,
   "X-GitHub-Api-Version": "2022-11-28",
 };
 
